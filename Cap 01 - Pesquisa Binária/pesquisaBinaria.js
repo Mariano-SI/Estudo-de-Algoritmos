@@ -16,12 +16,12 @@ function pesquisaBinaria(lista, item) {
     console.log(meio)
   }
   
-
+//Gerando vetor para testes
 let meuArray = new Array();
 for (let index = 0; index < 1000 ; index++) {
     meuArray[index] = index*3;
 }
 
-console.log(meuArray)
+//Testes
 let teste = pesquisaBinaria(meuArray, 267);
 console.log(meuArray[teste]);
